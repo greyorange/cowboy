@@ -27,6 +27,7 @@
 
 -export([compile/1]).
 -export([execute/2]).
+-export([match_path/4]).
 
 -type bindings() :: #{atom() => any()}.
 -type tokens() :: [binary()].
